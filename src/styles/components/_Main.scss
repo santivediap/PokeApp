@@ -1,0 +1,12 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+main {
+    background-color: $background-color;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hide {
+    display: none;
+}
