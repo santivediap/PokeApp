@@ -1,0 +1,235 @@
+@import '../utils/mixins.scss';
+
+.normal-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $normal-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $normal-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $normal-pokemon-color;
+    }
+}
+
+.fire-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $fire-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $fire-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $fire-pokemon-color;
+    }
+}
+
+.water-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $water-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $water-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $water-pokemon-color;
+    }
+}
+
+.grass-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $grass-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $grass-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $grass-pokemon-color;
+    }
+}
+
+.electric-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $electric-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $electric-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $electric-pokemon-color;
+    }
+}
+
+.ice-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $ice-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $ice-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $ice-pokemon-color;
+    }
+}
+
+.fighting-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $fighting-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $fighting-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $fighting-pokemon-color;
+    }
+}
+
+.poison-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $poison-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $poison-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $poison-pokemon-color;
+    }
+}
+
+.ground-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $ground-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $ground-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $ground-pokemon-color;
+    }
+}
+
+.flying-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $flying-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $flying-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $flying-pokemon-color;
+    }
+}
+
+.psychic-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $psychic-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $psychic-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $psychic-pokemon-color;
+    }
+}
+
+.bug-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $bug-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $bug-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $bug-pokemon-color;
+    }
+}
+
+.rock-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $rock-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $rock-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $rock-pokemon-color;
+    }
+}
+
+.ghost-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $ghost-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $ghost-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $ghost-pokemon-color;
+    }
+}
+
+.dark-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $dark-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $dark-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $dark-pokemon-color;
+    }
+}
+
+.dragon-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $dragon-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $dragon-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $dragon-pokemon-color;
+    }
+}
+
+.steel-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $steel-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $steel-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $steel-pokemon-color;
+    }
+}
+
+.fairy-pokemon-container {
+    @include pokemon-base-card;
+    border: .5vw solid $fairy-pokemon-color;
+    
+    & > .pokemon-name-container {
+        background-color: $fairy-pokemon-color;
+    }
+
+    & > .pokedex-number-container > p {
+        color: $fairy-pokemon-color;
+    }
+}
