@@ -19,3 +19,29 @@
         box-shadow: 0px 1px 2vw rgba(0, 0, 0, 0.313);
     }
 }
+
+.search-results-data {
+    background-color: white;
+    width: 100%;
+}
+
+.search-button {
+    width: 60%;
+    @include primary-button;
+}
+
+.container {
+    @include container;
+
+    & > h2 {
+        font-size: 8vw;
+        margin-top: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    & > .error {
+        color: red;
+        font-size: 5vw;
+        font-weight: 600;
+    }
+}
