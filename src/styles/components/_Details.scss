@@ -1,0 +1,471 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.normal-details-container {
+    @include pokemon-details;
+    background-color: $normal-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $normal-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $normal-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $normal-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $normal-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.fire-details-container {
+    @include pokemon-details;
+    background-color: $fire-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $fire-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $fire-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $fire-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $fire-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.water-details-container {
+    @include pokemon-details;
+    background-color: $water-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $water-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $water-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $water-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $water-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+
+.grass-details-container {
+    @include pokemon-details;
+    background-color: $grass-pokemon-color;
+    
+    & > .general-details {
+        & > h2 {
+            color: $grass-pokemon-color;
+        }
+    }
+    
+    & > .specific-details {
+        & > h2 {
+            color: $grass-pokemon-color;
+        }
+        
+        & > .specific-info {
+            border: 1vw solid $grass-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $grass-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.electric-details-container {
+    @include pokemon-details;
+    background-color: $electric-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $electric-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $electric-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $electric-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $electric-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.ice-details-container {
+    @include pokemon-details;
+    background-color: $ice-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $ice-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $ice-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $ice-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $ice-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.fighting-details-container {
+    @include pokemon-details;
+    background-color: $fighting-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $fighting-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $fighting-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $fighting-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $fighting-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.poison-details-container {
+    @include pokemon-details;
+    background-color: $poison-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $poison-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $poison-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $poison-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $poison-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.ground-details-container {
+    @include pokemon-details;
+    background-color: $ground-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $ground-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $ground-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $ground-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $ground-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.flying-details-container {
+    @include pokemon-details;
+    background-color: $flying-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $flying-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $flying-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $flying-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $flying-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.psychic-details-container {
+    @include pokemon-details;
+    background-color: $psychic-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $psychic-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $psychic-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $psychic-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $psychic-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.bug-details-container {
+    @include pokemon-details;
+    background-color: $bug-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $bug-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $bug-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $bug-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $bug-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.rock-details-container {
+    @include pokemon-details;
+    background-color: $rock-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $rock-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $rock-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $rock-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $rock-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.ghost-details-container {
+    @include pokemon-details;
+    background-color: $ghost-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $ghost-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $ghost-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $ghost-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $ghost-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.dark-details-container {
+    @include pokemon-details;
+    background-color: $dark-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $dark-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $dark-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $dark-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $dark-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.dragon-details-container {
+    @include pokemon-details;
+    background-color: $dragon-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $dragon-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $dragon-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $dragon-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $dragon-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.steel-details-container {
+    @include pokemon-details;
+    background-color: $steel-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $steel-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $steel-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $steel-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $steel-pokemon-color;
+                }
+            }
+        }
+    }
+}
+
+.fairy-details-container {
+    @include pokemon-details;
+    background-color: $fairy-pokemon-color;
+
+    & > .general-details {
+        & > h2 {
+            color: $fairy-pokemon-color;
+        }
+    }
+
+    & > .specific-details {
+        & > h2 {
+            color: $fairy-pokemon-color;
+        }
+
+        & > .specific-info {
+            border: 1vw solid $fairy-pokemon-color;
+            & > .data {
+                & > h2 {
+                    color: $fairy-pokemon-color;
+                }
+            }
+        }
+    }
+}
