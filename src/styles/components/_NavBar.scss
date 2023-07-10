@@ -1,0 +1,29 @@
+nav {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    & > a {
+        width: 15%;
+        & > img {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: contain;
+        }
+    }
+    
+    & > .navigation-links {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        & > a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
