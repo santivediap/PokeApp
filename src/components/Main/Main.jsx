@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import Search from './Search'
-import ListaPokemon from './ListaPokemon'
+import Home from './Home'
+import SearchPokemon from "./SearchPokemon/SearchPokemon";
+import { Routes, Route } from 'react-router-dom';
 
 const Main = () => {
 
-  const [ pokemons, setPokemons ] = useState([])
-
   return <main>
-    <Search pokemons={pokemons} setPokemons={setPokemons} />
-    {pokemons.length ? <ListaPokemon pokemons={pokemons}/> : <p className="hide"></p>}
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/search" element={<SearchPokemon/>} />
+    </Routes>
   </main>;
 };
 
