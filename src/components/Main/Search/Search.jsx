@@ -59,7 +59,7 @@ const Search = ({pokemons, setPokemons}) => {
 
       const getPokemon = search.data
       const pokemonData = {
-        name: pokemon,
+        name: getPokemon.name,
         id: getPokemon.id < 10 ? `#00${getPokemon.id}` : getPokemon.id < 100 ? `#0${getPokemon.id}` : `#${getPokemon.id}`,
         image: getPokemon.sprites.other["official-artwork"].front_default,
         type: getPokemon.types[0].type.name
